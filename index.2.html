@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <style>
+      div.topbar {
+        position:absolute;
+        background-color:#35014D;
+        top:0%;
+        bottom:90%;
+        left:0%;
+        right:0%;
+        padding-left:1em;
+        padding-right:1em;
+      }
+      div.sidebar {
+        position: absolute;
+        background-color:rgb(75,200,75);
+        top: 10%;
+        bottom:0%;
+        left: 0%;
+        right: 80%;
+      }
+      div.content {
+        position: absolute;
+        background-image:url("micro_carbon.png");
+        top:10%;
+        bottom:0%;
+        left: 20%;
+        right: 0%;
+      }
+      div.logo{
+        font-family:helvetica;
+        font-size:3em;
+        vertical-align:middle;
+      }
+      div.chat_panel {
+        margin: 2em;
+        padding: 1em;
+        overflow:auto;
+        display: flex;
+        align-items: center;
+        background: rgb(255,255,255); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+      }
+      div.chat_vote {
+        float:left;
+        width:10%;
+        display: flex;
+        justify-content:center;
+      }
+      div.chat_name {
+        font-family:helvetica;
+        font-size:3em;
+        float:left;
+        width:60%;
+      }
+      div.chat_numeric {
+        font-family:helvetica;
+        float:left;
+        display: flex;
+        justify-content:center;
+        width:20%;
+      }
+      span.big_num {
+        font-family:helvetica;
+        font-size:1.75em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "topbar">
+      <div class = "logo"><span style="color:rgb(255,255,50);">ka</span><span style="color:rgb(50,255,255);">Chat</span></div>
+    </div>
+    <div class = "sidebar"></div>
+    <div class = "content">
+
+      <div class="chat_panel">
+        <div class = "chat_vote">
+          <table>
+            <tr><td align=center>&#9650;</td></tr><tr><td align=center>1234</td></tr><tr><td align=center>&#9660;</td></tr>
+          </table>
+        </div>
+        <div class="chat_name">
+          Debian Tips and Tricks
+        </div>
+        <div class="chat_numeric">
+          <table>
+            <tr><td align=center><small>Population</small></td></tr><tr><td align=center><span class="big_num">108</span></td></tr>
+          </table>
+        </div>
+        <div class="chat_numeric">
+          <table>
+            <tr><td align=center><small>Friends</small></td></tr><tr><td align=center><span class="big_num">3</span></td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="chat_panel">
+        <div class = "chat_vote">
+          <table>
+            <tr><td align=center>&#9650;</td></tr><tr><td align=center>321</td></tr><tr><td align=center>&#9660;</td></tr>
+          </table>
+        </div>
+        <div class="chat_name">
+          Cute Cats
+        </div>
+        <div class="chat_numeric">
+          <table>
+            <tr><td align=center><small>Population</small></td></tr><tr><td align=center><span class="big_num">57</span></td></tr>
+          </table>
+        </div>
+        <div class="chat_numeric">
+          <table>
+            <tr><td align=center><small>Friends</small></td></tr><tr><td align=center><span class="big_num">2</span></td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="chat_panel">
+        <div class = "chat_vote">
+          <table>
+            <tr><td align=center>&#9650;</td></tr><tr><td align=center>300</td></tr><tr><td align=center>&#9660;</td></tr>
+          </table>
+        </div>
+        <div class="chat_name">
+          The Meaning of Life
+        </div>
+        <div class="chat_numeric">
+          <table>
+            <tr><td align=center><small>Population</small></td></tr><tr><td align=center><span class="big_num">28</span></td></tr>
+          </table>
+        </div>
+        <div class="chat_numeric">
+          <table>
+            <tr><td align=center><small>Friends</small></td></tr><tr><td align=center><span class="big_num">10</span></td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="chat_panel">
+        <div class = "chat_vote">
+          <table>
+            <tr><td align=center>&#9650;</td></tr><tr><td align=center>10</td></tr><tr><td align=center>&#9660;</td></tr>
+          </table>
+        </div>
+        <div class="chat_name">
+          The Best Kind of Circle
+        </div>
+        <div class="chat_numeric">
+          <table>
+            <tr><td align=center><small>Population</small></td></tr><tr><td align=center><span class="big_num">14</span></td></tr>
+          </table>
+        </div>
+        <div class="chat_numeric">
+          <table>
+            <tr><td align=center><small>Friends</small></td></tr><tr><td align=center><span class="big_num">0</span></td></tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

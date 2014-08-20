@@ -1,0 +1,31 @@
+div.navbar {
+  position: absolute;
+  top:0px;
+  left:0px;
+  height:100%;
+  background-color:rgb(25,25,25);
+  padding: 0.5em 2em 0.5em 2em
+}
+div.logo{
+  padding:1em 0em 1em 0em;
+}
+span.logo {
+  font-family:helvetica;
+  font-size:3em;
+}
+span.logo span.ka {
+  color:rgb(255,255,255);
+}
+span.logo span.chat {
+  color:rgb(50,255,255);
+}
+input.search {
+  width:100%;
+  border-radius:0.75em;
+  padding:0.25em;
+}
+div.navlink {
+  font-family:helvetica;
+  font-size:2em;
+  color:rgb(200,255,255);
+}
